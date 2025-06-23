@@ -13,7 +13,7 @@ include_directories(${SDL2_DIR}/include)
 link_directories(${SDL2_DIR}/lib)
 
 # Create executable
-add_executable(sdl_template src/main.c)
+add_executable(sdl_template src/main.c src/init.c src/draw.c src/input.c)
 
 # Link SDL2 libraries
 target_link_libraries(sdl_template

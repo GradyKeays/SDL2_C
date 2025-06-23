@@ -1,0 +1,7 @@
+#include "ctype.h"
+#include "defs.h"
+#include "math.h"
+#include "SDL.h"
+#include "stdio.h"
+#include "string.h"
+#include "structs.h"
