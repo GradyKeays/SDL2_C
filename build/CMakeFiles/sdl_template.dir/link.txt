@@ -1,0 +1,1 @@
+/c/mingw64/bin/gcc.exe -Wl,--enable-auto-import CMakeFiles/sdl_template.dir/src/main.c.o -o sdl_template.exe -Wl,--out-implib,libsdl_template.dll.a -Wl,--major-image-version,0,--minor-image-version,0   -L/home/grady/OneDrive/Desktop/sdl_template/libs/SDL2/lib  -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf

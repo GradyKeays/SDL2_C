@@ -1,0 +1,3 @@
+/home/grady/OneDrive/Desktop/sdl_template/build/CMakeFiles/sdl_template.dir
+/home/grady/OneDrive/Desktop/sdl_template/build/CMakeFiles/edit_cache.dir
+/home/grady/OneDrive/Desktop/sdl_template/build/CMakeFiles/rebuild_cache.dir
