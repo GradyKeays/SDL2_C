@@ -8,6 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/grady/OneDrive/Desktop/sdl_template/src/draw.c" "CMakeFiles/sdl_template.dir/src/draw.c.o" "gcc" "CMakeFiles/sdl_template.dir/src/draw.c.o.d"
+  "/home/grady/OneDrive/Desktop/sdl_template/src/init.c" "CMakeFiles/sdl_template.dir/src/init.c.o" "gcc" "CMakeFiles/sdl_template.dir/src/init.c.o.d"
+  "/home/grady/OneDrive/Desktop/sdl_template/src/input.c" "CMakeFiles/sdl_template.dir/src/input.c.o" "gcc" "CMakeFiles/sdl_template.dir/src/input.c.o.d"
   "/home/grady/OneDrive/Desktop/sdl_template/src/main.c" "CMakeFiles/sdl_template.dir/src/main.c.o" "gcc" "CMakeFiles/sdl_template.dir/src/main.c.o.d"
   )
 

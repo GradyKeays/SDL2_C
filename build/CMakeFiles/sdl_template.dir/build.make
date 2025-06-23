@@ -86,17 +86,65 @@ CMakeFiles/sdl_template.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sdl_template.dir/src/main.c.s"
 	/c/mingw64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/grady/OneDrive/Desktop/sdl_template/src/main.c -o CMakeFiles/sdl_template.dir/src/main.c.s
 
+CMakeFiles/sdl_template.dir/src/init.c.o: CMakeFiles/sdl_template.dir/flags.make
+CMakeFiles/sdl_template.dir/src/init.c.o: /home/grady/OneDrive/Desktop/sdl_template/src/init.c
+CMakeFiles/sdl_template.dir/src/init.c.o: CMakeFiles/sdl_template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/grady/OneDrive/Desktop/sdl_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/sdl_template.dir/src/init.c.o"
+	/c/mingw64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sdl_template.dir/src/init.c.o -MF CMakeFiles/sdl_template.dir/src/init.c.o.d -o CMakeFiles/sdl_template.dir/src/init.c.o -c /home/grady/OneDrive/Desktop/sdl_template/src/init.c
+
+CMakeFiles/sdl_template.dir/src/init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sdl_template.dir/src/init.c.i"
+	/c/mingw64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/grady/OneDrive/Desktop/sdl_template/src/init.c > CMakeFiles/sdl_template.dir/src/init.c.i
+
+CMakeFiles/sdl_template.dir/src/init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sdl_template.dir/src/init.c.s"
+	/c/mingw64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/grady/OneDrive/Desktop/sdl_template/src/init.c -o CMakeFiles/sdl_template.dir/src/init.c.s
+
+CMakeFiles/sdl_template.dir/src/draw.c.o: CMakeFiles/sdl_template.dir/flags.make
+CMakeFiles/sdl_template.dir/src/draw.c.o: /home/grady/OneDrive/Desktop/sdl_template/src/draw.c
+CMakeFiles/sdl_template.dir/src/draw.c.o: CMakeFiles/sdl_template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/grady/OneDrive/Desktop/sdl_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/sdl_template.dir/src/draw.c.o"
+	/c/mingw64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sdl_template.dir/src/draw.c.o -MF CMakeFiles/sdl_template.dir/src/draw.c.o.d -o CMakeFiles/sdl_template.dir/src/draw.c.o -c /home/grady/OneDrive/Desktop/sdl_template/src/draw.c
+
+CMakeFiles/sdl_template.dir/src/draw.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sdl_template.dir/src/draw.c.i"
+	/c/mingw64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/grady/OneDrive/Desktop/sdl_template/src/draw.c > CMakeFiles/sdl_template.dir/src/draw.c.i
+
+CMakeFiles/sdl_template.dir/src/draw.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sdl_template.dir/src/draw.c.s"
+	/c/mingw64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/grady/OneDrive/Desktop/sdl_template/src/draw.c -o CMakeFiles/sdl_template.dir/src/draw.c.s
+
+CMakeFiles/sdl_template.dir/src/input.c.o: CMakeFiles/sdl_template.dir/flags.make
+CMakeFiles/sdl_template.dir/src/input.c.o: /home/grady/OneDrive/Desktop/sdl_template/src/input.c
+CMakeFiles/sdl_template.dir/src/input.c.o: CMakeFiles/sdl_template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/grady/OneDrive/Desktop/sdl_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/sdl_template.dir/src/input.c.o"
+	/c/mingw64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sdl_template.dir/src/input.c.o -MF CMakeFiles/sdl_template.dir/src/input.c.o.d -o CMakeFiles/sdl_template.dir/src/input.c.o -c /home/grady/OneDrive/Desktop/sdl_template/src/input.c
+
+CMakeFiles/sdl_template.dir/src/input.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sdl_template.dir/src/input.c.i"
+	/c/mingw64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/grady/OneDrive/Desktop/sdl_template/src/input.c > CMakeFiles/sdl_template.dir/src/input.c.i
+
+CMakeFiles/sdl_template.dir/src/input.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sdl_template.dir/src/input.c.s"
+	/c/mingw64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/grady/OneDrive/Desktop/sdl_template/src/input.c -o CMakeFiles/sdl_template.dir/src/input.c.s
+
 # Object files for target sdl_template
 sdl_template_OBJECTS = \
-"CMakeFiles/sdl_template.dir/src/main.c.o"
+"CMakeFiles/sdl_template.dir/src/main.c.o" \
+"CMakeFiles/sdl_template.dir/src/init.c.o" \
+"CMakeFiles/sdl_template.dir/src/draw.c.o" \
+"CMakeFiles/sdl_template.dir/src/input.c.o"
 
 # External object files for target sdl_template
 sdl_template_EXTERNAL_OBJECTS =
 
 sdl_template.exe: CMakeFiles/sdl_template.dir/src/main.c.o
+sdl_template.exe: CMakeFiles/sdl_template.dir/src/init.c.o
+sdl_template.exe: CMakeFiles/sdl_template.dir/src/draw.c.o
+sdl_template.exe: CMakeFiles/sdl_template.dir/src/input.c.o
 sdl_template.exe: CMakeFiles/sdl_template.dir/build.make
 sdl_template.exe: CMakeFiles/sdl_template.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/grady/OneDrive/Desktop/sdl_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable sdl_template.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/grady/OneDrive/Desktop/sdl_template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable sdl_template.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sdl_template.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

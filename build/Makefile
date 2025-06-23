@@ -129,6 +129,78 @@ sdl_template/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl_template.dir/build.make CMakeFiles/sdl_template.dir/build
 .PHONY : sdl_template/fast
 
+src/draw.o: src/draw.c.o
+.PHONY : src/draw.o
+
+# target to build an object file
+src/draw.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl_template.dir/build.make CMakeFiles/sdl_template.dir/src/draw.c.o
+.PHONY : src/draw.c.o
+
+src/draw.i: src/draw.c.i
+.PHONY : src/draw.i
+
+# target to preprocess a source file
+src/draw.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl_template.dir/build.make CMakeFiles/sdl_template.dir/src/draw.c.i
+.PHONY : src/draw.c.i
+
+src/draw.s: src/draw.c.s
+.PHONY : src/draw.s
+
+# target to generate assembly for a file
+src/draw.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl_template.dir/build.make CMakeFiles/sdl_template.dir/src/draw.c.s
+.PHONY : src/draw.c.s
+
+src/init.o: src/init.c.o
+.PHONY : src/init.o
+
+# target to build an object file
+src/init.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl_template.dir/build.make CMakeFiles/sdl_template.dir/src/init.c.o
+.PHONY : src/init.c.o
+
+src/init.i: src/init.c.i
+.PHONY : src/init.i
+
+# target to preprocess a source file
+src/init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl_template.dir/build.make CMakeFiles/sdl_template.dir/src/init.c.i
+.PHONY : src/init.c.i
+
+src/init.s: src/init.c.s
+.PHONY : src/init.s
+
+# target to generate assembly for a file
+src/init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl_template.dir/build.make CMakeFiles/sdl_template.dir/src/init.c.s
+.PHONY : src/init.c.s
+
+src/input.o: src/input.c.o
+.PHONY : src/input.o
+
+# target to build an object file
+src/input.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl_template.dir/build.make CMakeFiles/sdl_template.dir/src/input.c.o
+.PHONY : src/input.c.o
+
+src/input.i: src/input.c.i
+.PHONY : src/input.i
+
+# target to preprocess a source file
+src/input.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl_template.dir/build.make CMakeFiles/sdl_template.dir/src/input.c.i
+.PHONY : src/input.c.i
+
+src/input.s: src/input.c.s
+.PHONY : src/input.s
+
+# target to generate assembly for a file
+src/input.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdl_template.dir/build.make CMakeFiles/sdl_template.dir/src/input.c.s
+.PHONY : src/input.c.s
+
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -162,6 +234,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... sdl_template"
+	@echo "... src/draw.o"
+	@echo "... src/draw.i"
+	@echo "... src/draw.s"
+	@echo "... src/init.o"
+	@echo "... src/init.i"
+	@echo "... src/init.s"
+	@echo "... src/input.o"
+	@echo "... src/input.i"
+	@echo "... src/input.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

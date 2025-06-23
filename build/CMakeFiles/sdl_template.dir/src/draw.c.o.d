@@ -1,5 +1,6 @@
-CMakeFiles/sdl_template.dir/src/main.c.o: \
- C:/Users/grady/OneDrive/Desktop/sdl_template/src/main.c \
+CMakeFiles/sdl_template.dir/src/draw.c.o: \
+ C:/Users/grady/OneDrive/Desktop/sdl_template/src/draw.c \
+ C:/Users/grady/OneDrive/Desktop/sdl_template/src/draw.h \
  C:/Users/grady/OneDrive/Desktop/sdl_template/src/common.h \
  C:/mingw64/x86_64-w64-mingw32/include/ctype.h \
  C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
@@ -212,7 +213,4 @@ CMakeFiles/sdl_template.dir/src/main.c.o: \
  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
  C:/mingw64/x86_64-w64-mingw32/include/string.h \
  C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
- C:/Users/grady/OneDrive/Desktop/sdl_template/src/structs.h \
- C:/Users/grady/OneDrive/Desktop/sdl_template/src/draw.h \
- C:/Users/grady/OneDrive/Desktop/sdl_template/src/init.h \
- C:/Users/grady/OneDrive/Desktop/sdl_template/src/input.h
+ C:/Users/grady/OneDrive/Desktop/sdl_template/src/structs.h
